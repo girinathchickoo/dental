@@ -1,0 +1,19 @@
+{% for mob in mob_no %}
+    
+    <h1>consultation date: {{ mob.date }}</h1>
+    <h1>mobile: {{ mob.mobile_no }}</h1>
+    <h1>firstname: {{ mob.first_name }}</h1>    
+    <h1>lastname: {{ mob.last_name }}</h1>
+    <h1>age: {{ mob.age }}</h1>
+    <h1>sex: {{ mob.sex }}</h1>
+    <h1>blood group: {{ mob.blood_group }}</h1>
+    <h1>chief complaint: {{ mob.chief_complaint }}</h1>
+    <h1>medical history: {{ mob.medical_history }}</h1>
+    <h1>clinical findings: {{ mob.clinical_findings }}</h1>
+    <h1>investigation: {{ mob.investigation }}</h1>
+    <h1>diagnosis: {{ mob.diagnosis }}</h1>
+    <h1>prescription: {{ mob.prescription }}</h1>
+    <h1>nex review date: {{ mob.next_review_date }}</h1>
+        
+    {% endfor %}
+    
